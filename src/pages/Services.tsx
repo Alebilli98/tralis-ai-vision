@@ -99,7 +99,7 @@ const Services = () => {
     playsInline
     className="w-full rounded-lg shadow-lg"
   >
-    <source src="/video_per_sito.mp4" type="video/mp4" />
+    <source src="/video_per_sito" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
       </section>
