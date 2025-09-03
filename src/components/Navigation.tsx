@@ -24,9 +24,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-sora font-bold text-sm">T</span>
-            </div>
+  <img src="/WhatsApp%20Image%202025-08-12%20at%2015.27.50.jpeg" alt="TRALIS AI Logo" className="h-8 w-auto" />            </div>
             <span className="font-sora font-semibold text-xl text-foreground">TRALIS AI</span>
           </Link>
 
