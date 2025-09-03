@@ -29,25 +29,28 @@ const About = () => {
   ];
 
   const team = [
-    {
-      name: "Alex Chen",
-      role: "CEO & Co-founder",
-      bio: "Former McKinsey consultant with 10+ years in financial modeling and data architecture.",
-      linkedin: "#"
-    },
-    {
-      name: "Sarah Rodriguez",
-      role: "CTO & Co-founder", 
-      bio: "Ex-Google engineer specializing in AI/ML applications for enterprise finance solutions.",
-      linkedin: "#"
-    },
-    {
-      name: "Michael Kumar",
-      role: "Head of Data Engineering",
-      bio: "Previously led data teams at Scale AI and Stripe, expert in real-time data pipelines.",
-      linkedin: "#"
-    }
-  ];
+  {
+    name: 'Alessio Bulletti',
+    role: 'Co-Founder',
+    bio: "Alessio is an established financial advisor with extensive experience in the financial and investment analysis sector. He holds an M.A. in Finance from the University of Siena. His career includes roles as a trader and later as a financial advisor at Fideuram, a leading Italian banking group, where he advised clients on investment strategies and financial planning. His deep understanding of market dynamics and client needs from a practical advisory perspective is invaluable for shaping Tralis AI's service offerings and ensuring they meet real-world financial demands.",
+    linkedin: '#',
+    image: '/75f5242a-bbe2-4d72-b472-f6f3bbd77fa0.png',
+  },
+  {
+    name: 'Martín Sannuto',
+    role: 'Co-Founder',
+    bio: "Martín is a finance professional with extensive experience in financial analysis, risk management and auditing in international settings. Martín holds a M.A. in Economics and Development from the University of Florence and began his career in Ernst & Young with experiences in Luxembourg and Australia in investment funds and corporate sector. After a short experience in Amazon Spain, driven by his entrepreneurial spirit decided to found Tralis AI.",
+    linkedin: '#',
+    image: '/fa9a40b5-80ee-42f5-a610-9fa2914746dc.png',
+  },
+  {
+    name: 'Juan Ceruli',
+    role: 'Co-Founder',
+    bio: "Juan began his career as a trader at a major bank before transitioning to computer science, driven by a passion for electronic trading. He holds a Master's Degree in Computer Science from Northeastern University in Boston, MA, and a Bachelor's in Accounting from the University of Buenos Aires in Argentina. Juan's passions lie in finance, coding, problem-solving, and learning new technologies.",
+    linkedin: '#',
+    image: '/e06d78f8-74ac-4ad4-a59a-1da046a59389.png',
+  },
+];
 
   return (
     <Layout>
