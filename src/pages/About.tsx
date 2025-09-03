@@ -125,11 +125,12 @@ const About = () => {
               <Card key={index} className="card-glass hover:shadow-xl transition-all duration-300 animate-slide-up"
                     style={{ animationDelay: `${index * 0.15}s` }}>
                 <CardContent className="p-6 text-center">
-                  <div className="w-24 h-24 bg-primary/20 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-primary font-sora font-bold text-xl">
-                      {member.name.split(' ').map(n => n[0]).join('')}
-                    </span>
-                  </div>
+                  <img
+  src={member.image}
+  alt={member.name}
+  className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+/>
+
                   <h3 className="font-sora font-semibold text-lg mb-1">{member.name}</h3>
                   <p className="text-primary text-sm mb-3 font-medium">{member.role}</p>
                   <p className="text-text-muted text-sm mb-4">{member.bio}</p>
