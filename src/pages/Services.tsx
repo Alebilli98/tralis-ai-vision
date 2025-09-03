@@ -92,15 +92,15 @@ const Services = () => {
       </section>
       {/* Demo video section */}
       <section className="container-max my-12">
-      <video
-    src="/video%20per%20sito.mp4"
-    autoPlay
-    muted
-    loop
-    playsInline
-    className="w-full rounded-lg shadow-lg"
-  />
-</section>
+       <video
+       src="/video_per_sito.mp4"
+       autoPlay
+       muted
+       loop
+       playsInline
+       className="w-full rounded-lg shadow-lg"
+       />
+      </section>
 
       {/* FAQ Section */}
       <section className="section-padding">
