@@ -93,13 +93,15 @@ const Services = () => {
       {/* Demo video section */}
       <section className="container-max my-12">
        <video
-       src="/video_per_sito.mp4"
-       autoPlay
-       muted
-       loop
-       playsInline
-       className="w-full rounded-lg shadow-lg"
-       />
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="w-full rounded-lg shadow-lg"
+  >
+    <source src="/video_per_sito.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
       </section>
 
       {/* FAQ Section */}
