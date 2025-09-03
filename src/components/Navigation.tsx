@@ -8,10 +8,12 @@ const Navigation = () => {
   const location = useLocation();
 
   const navItems = [
-    { name: 'Services', href: '/services' },
-    { name: 'About', href: '/about' },
-    { name: 'Contact', href: '/contact' },
-  ];
+  {   { name: 'Home', href: '/' },
+  { name: 'Services', href: '/services' },
+  {  { name: 'About', href: '/about' },
+  { name: 'Contact', href: '/contact' },
+: ];
+  
 
   const isActive = (href: string) => location.pathname === href;
 
