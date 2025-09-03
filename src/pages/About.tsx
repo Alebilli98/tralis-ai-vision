@@ -135,7 +135,9 @@ const About = () => {
                   <p className="text-primary text-sm mb-3 font-medium">{member.role}</p>
                   <p className="text-text-muted text-sm mb-4">{member.bio}</p>
                   <a 
-                    href={member.linkedin} 
+                    href={member.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-primary hover:text-primary/80 text-sm font-medium transition-colors"
                   >
                     LinkedIn →
