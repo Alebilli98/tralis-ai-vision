@@ -60,7 +60,7 @@ const Services = () => {
         <div className="container-max">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
             <h1 className="font-sora text-4xl lg:text-5xl font-bold mb-6">
-              End-to-end dashboards
+              Are you ready to upgrade your financial performance?
             </h1>
             <p className="text-xl text-text-muted mb-8 leading-relaxed">
               From data collection to AI insights. We handle every step so you can focus on making decisions.
