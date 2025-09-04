@@ -7,12 +7,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-sora font-bold text-sm">T</span>
-              </div>
-              <span className="font-sora font-semibold text-xl text-foreground">TRALIS AI</span>
-            </div>
+           <div className="flex items-center space-x-2 mb-4">
+            <img
+             src="/Tralis_logo.png"
+             alt="TRALIS AI Logo"
+             className="h-8 w-auto"
+          />
+          <span className="font-sora font-semibold text-xl text-foreground">TRALIS AI</span>
+        </div>
             <p className="text-text-muted text-sm max-w-md">
               Custom finance dashboards built on your data. Clear metrics, AI insights, and faster decisions.
             </p>
