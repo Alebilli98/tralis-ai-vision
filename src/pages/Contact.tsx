@@ -25,7 +25,8 @@ const Contact = () => {
     'Dashboards',
     'Data integration', 
     'AI insights',
-    'Forecasting'
+    'Forecasting',
+    'Other',
   ];
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -85,7 +86,7 @@ const Contact = () => {
         </div>
       </section>
 
-      <section className="section-padding">
+      <section className="section-padding pt-0">
         <div className="container-max">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             {/* Contact Form */}
@@ -221,13 +222,12 @@ const Contact = () => {
                       </div>
                     </div>
 
-                    <div className="flex items-start space-x-3">
-                      <MapPin className="w-5 h-5 text-primary mt-1" />
-                      <div>
-                        <p className="font-medium">Primary Market</p>
-                        <p className="text-text-muted text-sm">United Arab Emirates</p>
-                        <p className="text-text-muted text-sm">Global reach available</p>
-                      </div>
+                    <div className="flex items-start space-x-4 mt-4">
+                     <MapPin className="w-5 h-5 text-primary mt-1" />
+                     <div>
+                      <p className="font-medium">Availability</p>
+                      <p className="text-text-muted text-sm">We serve clients worldwide</p>
+                     </div>
                     </div>
 
                     <div className="flex items-start space-x-3">
