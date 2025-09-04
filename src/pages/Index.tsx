@@ -103,28 +103,46 @@ const Index = () => {
 
       {/* How It Works */}
       <section className="section-padding">
-        <div className="container-max">
-          <div className="text-center mb-12 animate-fade-in">
-            <h2 className="font-sora text-3xl lg:text-4xl font-bold mb-4">How it works</h2>
-            <p className="text-text-muted text-lg max-w-2xl mx-auto">
-              From discovery to deployment, we make it simple
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {howItWorks.map((item, index) => (
-              <div key={index} className="text-center animate-slide-up" 
-                   style={{ animationDelay: `${index * 0.15}s` }}>
-                <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-primary font-sora font-bold">{item.step}</span>
-                </div>
-                <h3 className="font-sora font-semibold text-lg mb-2">{item.title}</h3>
-                <p className="text-text-muted text-sm">{item.description}</p>
-              </div>
-            ))}
-          </div>
+       <div className="container-max">
+        <div className="text-center mb-12 animate-fade-in">
+         <h2 className="font-sora text-3xl lg:text-4xl font-bold mb-4">How it works</h2>
+         <p className="text-text-muted text-lg max-w-2xl mx-auto">
+           From discovery to deployment, we make it simple
+         </p>
+       </div>
+
+       {/* Wrapper per suddividere testo e immagine */}
+       <div className="flex flex-col lg:flex-row gap-12 items-center">
+        {/* Colonna sinistra: step */}
+         <div className="w-full lg:w-1/2">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+           {howItWorks.map((item, index) => (
+            <div
+              key={index}
+              className="text-center animate-slide-up"
+              style={{ animationDelay: `${index * 0.15}s` }}
+            >
+              <span className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
+                <span className="text-primary font-sora font-bold">{item.step}</span>
+              </span>
+              <h3 className="font-sora font-semibold text-lg mb-2">{item.title}</h3>
+              <p className="text-text-muted text-sm">{item.description}</p>
+            </div>
+          ))}
         </div>
-      </section>
+      </div>
+
+      {/* Colonna destra: immagine */}
+      <div className="w-full lg:w-1/2 flex justify-center">
+        <img
+          src="/Sito_home.png"
+          alt="Dashboard collage"
+          className="w-full rounded-xl shadow-lg"
+        />
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Featured Capabilities */}
       <section className="section-padding bg-card/30">
