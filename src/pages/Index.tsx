@@ -58,6 +58,9 @@ const Index = () => {
               Custom finance dashboards built on{" "}
               <span className="text-gradient">your data</span>
             </h1>
+            <p className="text-xl text-primary font-semibold mb-4">
+              Increase your revenue by 40%
+            </p>
             
             <p className="text-xl text-text-muted mb-8 max-w-3xl mx-auto leading-relaxed">
               Connect Excel, APIs, and ERP. See clear metrics, get AI summaries and forecasts, 
