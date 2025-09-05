@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import Layout from '@/components/Layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import AnimateIn from "@/components/AnimateIn";
 
 const Index = () => {
   const valuePillars = [
@@ -51,33 +50,25 @@ const Index = () => {
       {/* Hero Section */}
       <section className="section-padding relative overflow-hidden">
         <div className="container-max">
-          <div className="max-w-4xl mx-auto text-center">
-           <AnimateIn y={10}>
-            <div className="inline-flex items-center px-4 py-2 rounded-full bg-card border border-border mb-6">
-             <span className="text-primary text-sm font-medium">From API to KPI</span>
-            </div>
-           </AnimateIn>
+          <div className="max-w-4xl mx-auto text-center animate-fade-in">
+           <div className="inline-flex items-center px-4 py-2 rounded-full bg-card border border-border mb-6">
+            <span className="text-primary text-sm font-medium">From API to KPI</span>
+           </div>
 
-           <AnimateIn y={16}>
-            <h1 className="font-sora text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-             Custom finance dashboards built on{" "}
-             <span className="text-gradient">your data</span>
-            </h1>
-           </AnimateIn>
+           <h1 className="font-sora text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+            Custom finance dashboards built on{" "}
+            <span className="text-gradient">your data</span>
+           </h1>
 
-           <AnimateIn delay={0.1} y={12}>
-            <p className="text-xl text-primary font-semibold mb-4">
+           <p className="text-xl text-primary font-semibold mb-4">
              Increase your revenue by 40%
-            </p>
-           </AnimateIn>
+           </p>
 
-           <AnimateIn delay={0.2} y={12}>
-            <p className="text-xl text-text-muted mb-8 max-w-3xl mx-auto leading-relaxed">
-             Connect Excel, APIs, and ERP. See clear metrics, get AI summaries and forecasts,
-             and make faster decisions.
-            </p>
-          </AnimateIn>
-        </div>
+           <p className="text-xl text-text-muted mb-8 max-w-3xl mx-auto leading-relaxed">
+            Connect Excel, APIs, and ERP. See clear metrics, get AI summaries and forecasts,
+            and make faster decisions.
+           </p>
+
 
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
