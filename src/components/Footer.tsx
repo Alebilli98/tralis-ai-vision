@@ -13,7 +13,7 @@ const Footer = () => {
            <img
             src={logoUrl}
             alt="TRALIS AI Logo"
-            className="h-14 md:h-12 lg:h-14 w-auto shrink-0"
+            className="h-14 w-auto"
             loading="lazy"
           />
           <span className="font-sora font-semibold text-xl text-foreground">TRALIS AI</span>
