@@ -4,7 +4,7 @@ import  logoUrl  from '/Tralis_logo.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-card border-t border-border">
+    <footer className="bg-card border-t-2 border-white/50">
       <div className="container-max section-padding">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
