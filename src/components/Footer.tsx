@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-border text-center">
+        <div className="mt-8 pt-8 border-t-2 border-white/50 text-center">
           <p className="text-text-muted text-sm">
             © {new Date().getFullYear()} TRALIS AI. All rights reserved.
           </p>
