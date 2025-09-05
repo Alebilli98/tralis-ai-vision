@@ -51,25 +51,22 @@ const Index = () => {
       <section className="section-padding relative overflow-hidden">
         <div className="container-max">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
-           <div className="inline-flex items-center px-4 py-2 rounded-full bg-card border border-border mb-6">
-            <span className="text-primary text-sm font-medium">From API to KPI</span>
-           </div>
-
-           <h1 className="font-sora text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-            Custom finance dashboards built on{" "}
-            <span className="text-gradient">your data</span>
-           </h1>
-
-           <p className="text-xl text-primary font-semibold mb-4">
-             Increase your revenue by 40%
-           </p>
-
-           <p className="text-xl text-text-muted mb-8 max-w-3xl mx-auto leading-relaxed">
-            Connect Excel, APIs, and ERP. See clear metrics, get AI summaries and forecasts,
-            and make faster decisions.
-           </p>
-
-
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-card border border-border mb-6">
+              <span className="text-primary text-sm font-medium">From API to KPI</span>
+            </div>
+            
+            <h1 className="font-sora text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+              Custom finance dashboards built on{" "}
+              <span className="text-gradient">your data</span>
+            </h1>
+            <p className="text-xl text-primary font-semibold mb-4">
+              Increase your revenue by 40%
+            </p>
+            
+            <p className="text-xl text-text-muted mb-8 max-w-3xl mx-auto leading-relaxed">
+              Connect Excel, APIs, and ERP. See clear metrics, get AI summaries and forecasts, 
+              and make faster decisions.
+            </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild className="btn-primary text-lg px-8 py-4">
