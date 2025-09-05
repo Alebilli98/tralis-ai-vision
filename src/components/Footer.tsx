@@ -16,7 +16,15 @@ const Footer = () => {
             className="h-14 w-auto"
             loading="lazy"
           />
-          <span className="font-sora font-semibold text-xl text-foreground">TRALIS AI</span>
+          <span className="uppercase leading-none">
+           <span className="font-brand text-[20px] md:text-[22px] lg:text-[24px] font-semibold text-white tracking-[.04em]">
+            TRALIS
+          </span>{" "}
+          <span className="font-techno text-[20px] md:text-[22px] lg:text-[24px] font-semibold bg-gradient-to-r from-[#8AB4FF] to-[#4F67FF] bg-clip-text text-transparent tracking-[.08em]">
+            AI
+          </span>
+        </span>
+
       </div>
 
             <p className="text-text-muted text-sm max-w-md">
