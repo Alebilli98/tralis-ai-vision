@@ -36,7 +36,7 @@ const Index = () => {
   ];
 
   const capabilities = [
-    "Consolidated P&L and cash flow",
+    "Consolidated P&L and cash flow restoration",
     "Budget vs actuals with drill-downs",
     "margin production and maximization",
     "Alerts on variances",
