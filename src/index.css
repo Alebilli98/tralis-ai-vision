@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Orbitron:wght@600;700&display=swap');
+
 
 @tailwind base;
 @tailwind components;
@@ -85,6 +87,11 @@
 
   h1, h2, h3, h4, h5, h6 {
     @apply font-sora;
+  }
+
+   @layer utilities {
+     .font-brand { font-family: 'Space Grotesk', ui-sans-serif, system-ui; }
+    .font-techno { font-family: 'Orbitron', ui-sans-serif, system-ui; }
   }
 }
 
