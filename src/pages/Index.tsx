@@ -38,7 +38,7 @@ const Index = () => {
   const capabilities = [
     "Consolidated P&L and cash flow restoration",
     "Budget vs actuals with drill-downs",
-    "margin production and maximization",
+    "Margin production and maximization",
     "Alerts on variances",
     "Sales funnel and cohort analysis", 
     "AI-powered forecasting",
