@@ -4,7 +4,7 @@ import  logoUrl  from '/Tralis_logo.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-card border-b-[3px] border-white md:border-b-2 md:border-white/50">
+    <footer className="bg-card border-t-[3px] border-white md:border-t-2 md:border-white/50">
       <div className="container-max section-padding">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
@@ -77,7 +77,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-b-[3px] border-white md:border-b-2 md:border-white/50 text-center">
+        <div className="mt-8 pt-8 border-t-[3px] border-white md:border-t-2 md:border-white/50 text-center">
           <p className="text-text-muted text-sm">
             © {new Date().getFullYear()} TRALIS AI. All rights reserved.
           </p>
