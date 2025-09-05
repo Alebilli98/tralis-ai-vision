@@ -13,7 +13,7 @@ const Index = () => {
     },
     {
       icon: <CheckCircle className="w-8 h-8 text-primary" />,
-      title: "Designed for decisions",
+      title: "Design and tailor decisions",
       description: "KPIs that match your goals."
     },
     {
