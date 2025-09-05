@@ -23,7 +23,14 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img src="/Tralis_logo.png" alt="TRALIS AI Logo" className="h-14 w-auto" />
-            <span className="ml-2 font-sora font-semibold text-xl text-foreground">TRALIS AI</span>
+            <span className="ml-2 uppercase leading-none">
+             <span className="font-brand text-[20px] md:text-[22px] lg:text-[24px] font-semibold text-white tracking-[.04em]">
+              TRALIS
+             </span>{" "}
+              <span className="font-techno text-[20px] md:text-[22px] lg:text-[24px] font-semibold bg-gradient-to-r from-[#8AB4FF] to-[#4F67FF] bg-clip-text text-transparent tracking-[.08em]">
+               AI
+              </span>
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
